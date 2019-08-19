@@ -1,4 +1,4 @@
-# jsutil 1.1
+# jsval 1.1
 Utility javascript framework
 
 ## Add Validation to inputs:
@@ -15,7 +15,7 @@ $V.add({id:"email", message: "Invalid emial", isEmail:true});
 $V.callback = function(d){console.log(d);};
 ```
 
-##Fire Validation:
+## Fire Validation:
 
 ```js
 $V.validate();
