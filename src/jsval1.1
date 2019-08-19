@@ -23,7 +23,8 @@ var $V=
 					}
 					
 					if(inpt.isDate && e.value.trim()!=='' && inpt.dateFormat){
-							
+						
+						//TODO : Date validation as per date format provided
 						stack.push({source: inpt.id, message: inpt.message, isDateFailed:true});
 					}
 					
@@ -31,7 +32,7 @@ var $V=
 						
 						var val = parseInt(inpt.value);
 						if(val < inpt.min || val > inpt.max)
-						stack.push({source: inpt.id, message: inpt.message, isNumericFailed:true});
+							stack.push({source: inpt.id, message: inpt.message, isNumericFailed:true});
 					}
 				}
 			}
