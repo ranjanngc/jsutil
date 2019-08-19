@@ -37,6 +37,7 @@ $V.validate();
 | isNumeric | true/false   |
 | isDecimal | true/false   |
 | dateFormat| MM/dd/yyyy, dd/MM/yyyy, etc.|
+| dateSeparator| /,- etc.|
 | min		| When field is numeric or decimal minimum value|
 | max		| When field is numeric or decimal maximum value|
 
