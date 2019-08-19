@@ -1,6 +1,8 @@
 # jsval 1.1
 Utility javascript framework
 
+#### $V.add({validation attributes});
+
 ### Add Validation to inputs:
 
 ```js
