@@ -9,7 +9,7 @@ The tiny framework allows to add different types of validation to the inputs. Ac
 
 ```js
 $V.add({id:"season", message: "Season cannot be empty", isRequired:true});
-$V.add({id:"createdon", message: "Invalid date.", isRequired:true, isDate: true, dateFormat: 'dd/MM/yyyy'});
+$V.add({id:"createdon", message: "Invalid date.", isRequired:true, isDate: true, dateFormat: 'dd/MM/yyyy', dateSeparator:'/'});
 $V.add({id:"email", message: "Invalid email", isEmail:true});
 ```
 
