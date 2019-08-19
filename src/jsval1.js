@@ -58,12 +58,12 @@ var $V=
 			
 			for(var j=0;j<dtfrmt.length;j++)
 			{
-				if(dtfrmt[j].startWith('y')){this.year =dts[j];}
-				else if(dtfrmt[j].startWith('m')){this.month =dts[j];}
-				else if(dtfrmt[j].startWith('d')){this.day =dts[j];}
-				else if(dtfrmt[j].startWith('h')){this.hour =dts[j];}
-				else if(dtfrmt[j].startWith('m')){this.minute =dts[j];}
-				else if(dtfrmt[j].startWith('s')){this.second =dts[j];}
+				if(dtfrmt[j].startsWith('y')){this.year =dts[j];}
+				else if(dtfrmt[j].startsWith('m')){this.month =dts[j];}
+				else if(dtfrmt[j].startsWith('d')){this.day =dts[j];}
+				else if(dtfrmt[j].startsWith('h')){this.hour =dts[j];}
+				else if(dtfrmt[j].startsWith('m')){this.minute =dts[j];}
+				else if(dtfrmt[j].startsWith('s')){this.second =dts[j];}
 			}
 		},
 		isValid: function(dateFormat, separator, date){
