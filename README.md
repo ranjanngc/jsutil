@@ -3,14 +3,14 @@ Utility javascript framework
 
 #### $V.add({validation attributes});
 
-The tiny framework allows to add different types of validation to the inputs. Actual validation can be initiated by invoking `$v.validate()` method. `$V.callback` should be set to proper callback method. Callback method will be invoked with needed information.
+The tiny framework allows to add different types of validation to the inputs. Actual validation can be initiated by invoking `$v.validate()` method. `$V.callback` should be set to proper callback method. Callback method will be invoked with needed information on failure.
 
 ### Add Validation to inputs:
 
 ```js
 $V.add({id:"season", message: "Season cannot be empty", isRequired:true});
 $V.add({id:"createdon", message: "Invalid date.", isRequired:true, isDate: true, dateFormat: 'dd/MM/yyyy'});
-$V.add({id:"email", message: "Invalid emial", isEmail:true});
+$V.add({id:"email", message: "Invalid email", isEmail:true});
 ```
 
 ### Add Callback function:
