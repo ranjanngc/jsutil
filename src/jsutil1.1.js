@@ -2,7 +2,7 @@ var $V=
 {
 	callback:null,
 	inputs:[],
-	make: function(validationAttribute){
+	add: function(validationAttribute){
 		
 		this.inputs.push(validationAttribute);
 	},
@@ -40,7 +40,3 @@ var $V=
 		}
 	}
 };
-
-$V.callback = function(d){console.log(d);};
-$V.make({id:"season", message: "Season cannot be empty", isRequired:true});
-$V.validate();
