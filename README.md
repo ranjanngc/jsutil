@@ -3,6 +3,8 @@ Utility javascript framework
 
 #### $V.add({validation attributes});
 
+The tiny framework allows to add different types of validation to the inputs. Actual validation can be initiated by involing `$v.validate()` method. `$V.callback` should be set to proper callback method. Callback method will be invoked with needed information.
+
 ### Add Validation to inputs:
 
 ```js
